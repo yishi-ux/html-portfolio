@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YI Port</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="#top">YI Port</a>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-controls="site-nav"
+        aria-expanded="false"
+      >
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">メニュー</span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <ul>
+          <li><a href="#skills">できること</a></li>
+          <li><a href="#works">実績</a></li>
+          <li><a href="#contact">連絡</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="top" class="hero">
+      <p class="label">Portfolio</p>
+      <h1>小さなサイトを、<br>更新できる状態で渡す。</h1>
+      <p class="lead">WordPressの記事入稿・更新と、店舗向けの簡単なホームページ制作をしています。このページ自体も HTML と CSS だけで作っています。</p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>できること</h2>
+      <div class="skills">
+        <article class="skill">
+          <h3>WordPress 入稿・更新</h3>
+          <ul>
+            <li>見出し（H2 / H3）の整理</li>
+            <li>箇条書き・強調・表</li>
+            <li>画像の挿入</li>
+            <li>内部リンク</li>
+            <li>メタディスクリプション</li>
+          </ul>
+        </article>
+        <article class="skill">
+          <h3>小さなサイト制作</h3>
+          <ul>
+            <li>固定ページ中心の店舗・会社HP</li>
+            <li>お知らせは投稿で追加できる形</li>
+            <li>お問い合わせフォーム</li>
+            <li>スマホ表示の確認</li>
+          </ul>
+        </article>
+        <article class="skill">
+          <h3>使っている技術</h3>
+          <ul>
+            <li>HTML / CSS / 簡単な JavaScript</li>
+            <li>WordPress</li>
+            <li>PHP（必要に応じて）</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="works" class="section">
+      <h2>実績</h2>
+      <p class="note">公開して問題ないものだけ載せています。店舗向けの見本サイトは準備中です。</p>
+      <ul class="works">
+        <li class="work">
+          <a class="work-visual" href="https://yiport.xyz/" target="_blank" rel="noopener noreferrer">
+            <img src="images/yiport.png" alt="YI Port">
+          </a>
+          <p class="work-type">このサイト</p>
+          <h3>YI Port</h3>
+          <p>HTML・CSSのポートフォリオ。レンタルサーバーに静的ファイルで公開。</p>
+          <a href="https://yiport.xyz/" target="_blank" rel="noopener noreferrer">https://yiport.xyz/</a>
+        </li>
+        <li class="work">
+          <a class="work-visual" href="https://ntjk.jp/" target="_blank" rel="noopener noreferrer">
+            <img src="images/ntjk.png" alt="太極拳・立禅">
+          </a>
+          <p class="work-type">WordPress</p>
+          <h3>太極拳・立禅</h3>
+          <p>情報サイトの作成・運営。見出しと記事構成、継続的な更新。</p>
+          <a href="https://ntjk.jp/" target="_blank" rel="noopener noreferrer">https://ntjk.jp/</a>
+        </li>
+        <li class="work">
+          <a class="work-visual" href="https://cow-enjoy.jp/" target="_blank" rel="noopener noreferrer">
+            <img src="images/cow-enjoy.png" alt="生活情報">
+          </a>
+          <p class="work-type">WordPress</p>
+          <h3>生活情報</h3>
+          <p>生活寄りの記事サイト。入稿と同じ作業（見出し・画像・内部リンク）で運営。</p>
+          <a href="https://cow-enjoy.jp/" target="_blank" rel="noopener noreferrer">https://cow-enjoy.jp/</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>連絡</h2>
+      <p>ご依頼はクラウドワークスなど、案件ページからご連絡ください。このサイトには個人の住所・電話は載せていません。</p>
+      <p class="contact-line">WordPress記事入稿・更新　／　小さなホームページ制作</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© YI Port</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
